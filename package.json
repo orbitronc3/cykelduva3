@@ -10,9 +10,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+        "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/typography": "^0.5.19",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "next": "^16.1.7"
+    "next": "^16.1.7",
+    "katex": "^0.16.38"
   },
   "devDependencies": {
     "typescript": "^5.9.3",
