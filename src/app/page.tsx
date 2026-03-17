@@ -9,7 +9,7 @@ export default function Home() {
 
   useEffect(() => {
     (async () => {
-      const response = await fetch("/api/categories");
+      const response = await fetch("/api/dinosaurs");
       const allCategories = (await response.json()) as Category[];
       setCategories(allCategories);
     })();
